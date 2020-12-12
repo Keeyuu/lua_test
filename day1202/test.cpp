@@ -49,7 +49,7 @@ int main()
     {
         std::cout << "Text contains the phrase 'regular expressions'\n";
     }
-
+;;
     std::regex word_regex("(\\w+)");
     auto words_begin =
         std::sregex_iterator(s.begin(), s.end(), word_regex);
