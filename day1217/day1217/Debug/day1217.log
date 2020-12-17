@@ -1,0 +1,25 @@
+﻿  main.cpp
+D:\keeyu\myfile\lua_test\day1217\day1217\safe_queue.hpp(38,23): warning C4930: “std::unique_lock<std::mutex> lock_(std::mutex)”: 未调用原型函数(是否是有意用变量定义的?)
+D:\keeyu\myfile\lua_test\day1217\day1217\safe_queue.hpp(31): message : 在编译 类 模板 成员函数“T keeyu::safe_queue<T>::pop_(void)”时
+          with
+          [
+              T=int
+          ]
+D:\keeyu\myfile\lua_test\day1217\day1217\main.cpp(11): message : 查看对正在编译的函数 模板 实例化“T keeyu::safe_queue<T>::pop_(void)”的引用
+          with
+          [
+              T=int
+          ]
+D:\keeyu\myfile\lua_test\day1217\day1217\main.cpp(6): message : 查看对正在编译的 类 模板 实例化“keeyu::safe_queue<int>”的引用
+D:\keeyu\myfile\lua_test\day1217\day1217\safe_queue.hpp(22,22): warning C4930: “std::unique_lock<std::mutex> lock_(std::mutex)”: 未调用原型函数(是否是有意用变量定义的?)
+D:\keeyu\myfile\lua_test\day1217\day1217\safe_queue.hpp(21): message : 在编译 类 模板 成员函数“void keeyu::safe_queue<int>::push(T &&)”时
+          with
+          [
+              T=int
+          ]
+D:\keeyu\myfile\lua_test\day1217\day1217\main.cpp(8): message : 查看对正在编译的函数 模板 实例化“void keeyu::safe_queue<int>::push(T &&)”的引用
+          with
+          [
+              T=int
+          ]
+  day1217.vcxproj -> D:\keeyu\myfile\lua_test\day1217\Debug\day1217.exe
