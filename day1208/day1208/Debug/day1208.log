@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\PC\source\repos\day1208\day1208\main.cpp(35,16): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  day1208.vcxproj -> C:\Users\PC\source\repos\day1208\Debug\day1208.exe
