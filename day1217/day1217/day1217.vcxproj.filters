@@ -20,7 +20,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="safe_queue.hpp">
+    <ClInclude Include="thread_pool.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
