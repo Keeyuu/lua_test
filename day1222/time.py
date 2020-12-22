@@ -1,7 +1,13 @@
-import os
-import time
+import random,os
 
-#os.system("date 2020/12/21")
-print("----1----")
-os.system("cmd")
-time.sleep(10)
+for i in range(1, 5): {
+    print(i)
+}
+                
+               
+               
+               
+               
+               
+               
+               
