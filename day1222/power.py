@@ -1,7 +1,12 @@
 from __future__ import print_function
 import ctypes
-import sys,os
+import sys,os,random
 
+def xiajb():
+    fd = open("./test", "a+")
+    fd.write("yes")
+    fd.write(str(random.randint(0,9999)))
+    fd.close()
 
 def is_admin():
     try:
@@ -12,7 +17,13 @@ def is_admin():
 
 if is_admin():
     # 将要运行的代码加到这里
-    os.system("cmd")
+    os.chdir("C:/autoC")
+    xiajb()
+    os.system("git add test")
+    os.system("git commit -m yes")
+    os.system("git push")
+    time.sleep(5)
+    #os.system("date 2020/12/22")
 else:
     if sys.version_info[0] == 3:
         ctypes.windll.shell32.ShellExecuteW(
