@@ -1,8 +1,8 @@
-local a ={a = 1}
+local a = {a = 1}
 
 local b = a
 
+a.a = 2
 
-a.a =2
-
-print(b.a)
+print(b)
+print(a)
