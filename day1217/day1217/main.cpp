@@ -1,12 +1,14 @@
-#include<iostream>
-#include<random>
-#include<time.h>
-#include<thread>
+#include<stdlib.h>
 #include<chrono>
-#include<string>
-#include"thread_pool.hpp"
+#include<thread>
 
 int main()
 {
-	keeyu::thread_pool<int> p;
+	for (int i = 0; i < 31; i++)
+	{
+
+		system("date 2020/12/"+i);
+		std::this_thread::sleep_for(std::chrono::seconds(1));
+	}
+
 }

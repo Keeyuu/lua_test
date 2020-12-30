@@ -6,10 +6,10 @@ import random
 
 # 每日提交范围
 day_min = 5
-day_max = 22
+day_max = 23
 # 月份开始天数和结束天数
-m_min = 1
-m_max = 30
+m_min = 25
+m_max = 31
 # 月份
 m_m = 11
 
@@ -36,12 +36,12 @@ def is_admin():
 
 
 def test(i):
-    temp_str = "date 2020/11/" + str(i)
-    os.system(temp_str)
-    for index in range(day_min, random.randint(day_min, day_max)):
-        temp_time = "time "+str(random.randint(1, 23)) + \
-            ":"+str(random.randint(1, 59))
-        os.system(temp_time)
+    # temp_str = "date 2019/12/" + str(i)
+    # os.system(temp_str)
+    # for index in range(day_min, random.randint(day_min, day_max)):
+    #     temp_time = "time "+str(random.randint(1, 23)) + \
+    #         ":"+str(random.randint(1, 59))
+    #     os.system(temp_time)
         shua()
 
 

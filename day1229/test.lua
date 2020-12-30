@@ -1,8 +1,1 @@
-local a = {a = 1}
-
-local b = a
-
-a.a = 2
-
-print(b)
-print(a)
+assert(false, "abc")
