@@ -1,14 +1,17 @@
 
 
-class MyClass:
-    """一个简单的类实例"""
-    i = 12345
-    def f(self):
-        return 'hello world'
- 
-# 实例化类
-x = MyClass()
- 
-# 访问类的属性和方法
-print("MyClass 类的属性 i 为：", x.i)
-print("MyClass 类的方法 f 输出为：", x.f())
+class list_:
+    a = {}
+    def __getitem__(self, n):
+        return self.a[n]
+    def __setitem__(self, n,b1):
+        self.a[n] = b1
+    def __len__(self):
+        return 100
+
+test = list_()
+
+test[1] = 1
+print(len(test))
+print(test[1])
+
